@@ -12,7 +12,7 @@ public class SearchBox  extends  BasePage{
 
     public  void  search(String text)
     {
-        type(searchBoxLocater,text);
-        Click(searchBtnLocater);
+        type(searchBoxLocater , text);
+        click(searchBtnLocater);
     }
 }
